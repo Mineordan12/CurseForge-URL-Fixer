@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "CurseForge URL Fixer",
+  "version": "1.1",
+  "description": "Fixes CurseForge URLs to redirect correctly and notifies the user",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "notifications",
+    "*://minecraft.curseforge.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
